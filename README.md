@@ -1,5 +1,7 @@
 # Openshift
-
+http://akrambenaissi.com/2015/11/openshift-cheat-sheet-for-beginners
+https://monodot.co.uk/openshift-cheatsheet/
+https://lzone.de/cheat-sheet/kubernetes
 # OpenShift cheat sheet https://github.com/mhausenblas/openshift-cheat-sheet
 ## Minishift: give user XXX cluster admin rights
 ```
