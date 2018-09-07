@@ -66,7 +66,7 @@ http $(oc get routes | grep xxx | awk '{print $2}')/info
 curl -s $(oc get routes | grep xxx | awk '{print $2}')/info | jq .
 ```
 # My Openshift Cheatsheet
-
+https://gist.github.com/rafaeltuelho/111850b0db31106a4d12a186e1fbc53e
 ### Logging Aggregation throubleshooting
  * https://access.redhat.com/articles/3136551
 
