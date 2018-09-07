@@ -4,7 +4,9 @@ http://akrambenaissi.com/2015/11/openshift-cheat-sheet-for-beginners
 https://monodot.co.uk/openshift-cheatsheet/
 
 https://lzone.de/cheat-sheet/kubernetes
-# OpenShift cheat sheet https://github.com/mhausenblas/openshift-cheat-sheet
+# OpenShift cheat sheet 
+
+https://github.com/mhausenblas/openshift-cheat-sheet
 ## Minishift: give user XXX cluster admin rights
 ```
 oc login -u system:admin
@@ -70,6 +72,7 @@ http $(oc get routes | grep xxx | awk '{print $2}')/info
 curl -s $(oc get routes | grep xxx | awk '{print $2}')/info | jq .
 ```
 # My Openshift Cheatsheet
+
 https://gist.github.com/rafaeltuelho/111850b0db31106a4d12a186e1fbc53e
 ### Logging Aggregation throubleshooting
  * https://access.redhat.com/articles/3136551
