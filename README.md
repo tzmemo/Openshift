@@ -1,28 +1,20 @@
 # Openshift
 
 # OpenShift cheat sheet https://github.com/mhausenblas/openshift-cheat-sheet
-
 ## Minishift: give user XXX cluster admin rights
-
 ```
 oc login -u system:admin
 oc adm policy add-cluster-role-to-user cluster-admin XXX
 ```
-
 ## Log in via CLI
-
 Get from `https://CLUSTER:8443/console/command-line` the token.
-
 ```
 oc login ...
 ```
-
 ## Create project
-
 ```
 oc new-project xxx --description="XXX" --display-name="xxx xxx xxx"
 ```
-
 ## Create app and build from source on GitHub
 
 Launches as pod supervised by DC:
